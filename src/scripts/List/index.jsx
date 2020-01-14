@@ -5,7 +5,7 @@ import styles from './index.css';
 const TodoList = () => {
 
   const [title, setTodoTitle] = useState('');
-  const [todoList, setTodoList] = useState([]);
+  const [todoList, setTodoList] = useState(['123', '456']);
 
   const handleChange = useCallback(event => setTodoTitle(event.target.value), []);
 
